@@ -32,6 +32,7 @@ The process of creating or remixing music often demands technical expertise, spe
 - A **demo video** of the full system has been recorded and uploaded to Google Drive for evaluation.
 - "Model size is >2 GB and requires GPU resources; cloud-free-hosting platforms were insufficient. Full demo recorded locally — video uploaded to Google Drive."
 
+### **NOTE : The model takes 1-1.13 minutes to generate audio so in video Timestamps to view output are 1:49 3:20 and 5:28**
 
 ###  **Google Drive Link of Video :** https://drive.google.com/file/d/1dJR70PTZ5vFPmwBogk_Q_MnAIxC9grb7/view?usp=sharing
 
