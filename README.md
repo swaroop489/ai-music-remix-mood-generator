@@ -9,7 +9,7 @@ The process of creating or remixing music often demands technical expertise, spe
 
 ---
 
-## Quick Architecture Summary 
+## Architecture
 - **Frontend:** React-based web app for user interaction (prompt input, file upload, mood selection, and audio playback).  
 - **Backend:** FastAPI server handling requests, model execution, and audio file responses.  
 - **Model Engine:** Meta’s MusicGen (facebook/musicgen-small) for AI-driven music and remix generation.  
@@ -64,7 +64,7 @@ The process of creating or remixing music often demands technical expertise, spe
 ---
 
 
-## Suggested "Future Scope" 
+## Future Scope
 - Quantize/Prune or distill the model for lightweight deployment (edge or mobile).  
 - Add a cloud GPU inference pipeline with batching and autoscaling (pay-as-you-go).  
 - Add user accounts, playlists, and export options (MP3/OGG).  
