@@ -25,19 +25,6 @@ The process of creating or remixing music often demands technical expertise, spe
 
 ---
 
-## Deployment 
-- Model size: **> 2 GB** and requires a **GPU-enabled environment** for smooth execution.  
-- Many free hosting platforms (Render, Vercel, Hugging Face Spaces) cannot host this due to memory/compute limits.  
-- Executed locally for testing and demonstration.  
-- A **demo video** of the full system has been recorded and uploaded to Google Drive for evaluation.
-- "Model size is >2 GB and requires GPU resources; cloud-free-hosting platforms were insufficient. Full demo recorded locally — video uploaded to Google Drive."
-
-### **NOTE : The model takes 1-1.13 minutes to generate audio so in video Timestamps to view output are 1:49 3:20 and 5:28**
-
-###  **Google Drive Link of Video :** https://drive.google.com/file/d/1dJR70PTZ5vFPmwBogk_Q_MnAIxC9grb7/view?usp=sharing
-
----
-
 ## Data Handling & Audio Processing 
 - Generated tensor → NumPy → normalize → PCM16 → WAV using `scipy.io.wavfile`.  
 - Uploaded files handled via FastAPI `UploadFile`.  
